@@ -1,0 +1,121 @@
+vcdimager
+------------------------------------------
+GNU VCDImager is a full-featured mastering suite for authoring,
+disassembling and analyzing Video CD's and Super Video CD's.
+
+The core functionality consists of directly making Video CD
+BIN/CUE-style CD images from mpeg files, which (after being written to
+CDR(W) media) can be played on standalone VCD players or DVD players and
+on computers running GNU/Linux, MacOS, Win32 or any other OS capable of
+accessing VCD's. BIN/CUE images can be burned with [cdrdao] (please use
+a recent version, since older ones do not support BIN/CUE-style
+cuesheets) under GNU/Linux (and other supported platforms by cdrdao,
+e.g. freeBSD, Irix, Solaris and even win32).
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libcdio7-0.78.2-1
+  libiso9660_5-0.78.2-1
+  libpopt0-1.10.4-1
+  libxml2-2.6.27-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.9-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.vcdimager.org/
+
+Canonical download:
+  http://www.vcdimager.org/pub/vcdimager/
+
+-------------------------------------------
+
+Build instructions:
+  unpack vcdimager-0.7.23-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./vcdimager-0.7.23-X.cygport all
+
+This will create:
+  /usr/src/libvcdinfo-devel-0.7.23-X.tar.bz2
+  /usr/src/libvcdinfo0-0.7.23-X.tar.bz2
+  /usr/src/vcdimager-0.7.23-X-src.tar.bz2
+  /usr/src/vcdimager-0.7.23-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(vcdimager)
+  /etc/postinstall/vcdimager.sh
+  /usr/bin/cdxa2mpeg.exe
+  /usr/bin/vcd-info.exe
+  /usr/bin/vcdimager.exe
+  /usr/bin/vcdxbuild.exe
+  /usr/bin/vcdxgen.exe
+  /usr/bin/vcdxminfo.exe
+  /usr/bin/vcdxrip.exe
+  /usr/share/doc/Cygwin/vcdimager-0.7.23.README
+  /usr/share/doc/vcdimager-0.7.23/AUTHORS
+  /usr/share/doc/vcdimager-0.7.23/BUGS
+  /usr/share/doc/vcdimager-0.7.23/ChangeLog
+  /usr/share/doc/vcdimager-0.7.23/COPYING
+  /usr/share/doc/vcdimager-0.7.23/FAQ
+  /usr/share/doc/vcdimager-0.7.23/HACKING
+  /usr/share/doc/vcdimager-0.7.23/INSTALL
+  /usr/share/doc/vcdimager-0.7.23/NEWS
+  /usr/share/doc/vcdimager-0.7.23/README
+  /usr/share/doc/vcdimager-0.7.23/THANKS
+  /usr/share/doc/vcdimager-0.7.23/TODO
+  /usr/share/info/vcd-info.info.gz
+  /usr/share/info/vcdimager.info.gz
+  /usr/share/info/vcdxrip.info.gz
+  /usr/share/man/man1/cdxa2mpeg.1.gz
+  /usr/share/man/man1/vcd-info.1.gz
+  /usr/share/man/man1/vcdimager.1.gz
+  /usr/share/man/man1/vcdxbuild.1.gz
+  /usr/share/man/man1/vcdxgen.1.gz
+  /usr/share/man/man1/vcdxminfo.1.gz
+  /usr/share/man/man1/vcdxrip.1.gz
+
+(libvcdinfo0)
+  /usr/bin/cygvcdinfo-0.dll
+
+(libvcdinfo-devel)
+  /usr/include/libvcd/files.h
+  /usr/include/libvcd/files_private.h
+  /usr/include/libvcd/inf.h
+  /usr/include/libvcd/info.h
+  /usr/include/libvcd/logging.h
+  /usr/include/libvcd/sector.h
+  /usr/include/libvcd/types.h
+  /usr/include/libvcd/version.h
+  /usr/lib/libvcdinfo.a
+  /usr/lib/libvcdinfo.dll.a
+  /usr/lib/libvcdinfo.la
+  /usr/lib/pkgconfig/libvcdinfo.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.7.23-2 -----
+Rebuilt with cygport for libcdio-0.78.
+
+----- version 0.7.23-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
