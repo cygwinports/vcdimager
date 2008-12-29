@@ -1,7 +1,7 @@
 category: Video
-requires: cygwin libcdio-devel
+requires: cygwin libcdio10 libiso9660_7
 external-source: vcdimager
-sdesc: "Video CD mastering suite (library development)"
+sdesc: "Video CD mastering suite (runtime library)"
 ldesc: "GNU VCDImager is a full-featured mastering suite for authoring,
 disassembling and analyzing Video CD's and Super Video CD's.
 
