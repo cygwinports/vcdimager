@@ -13,22 +13,23 @@ cuesheets) under GNU/Linux (and other supported platforms by cdrdao,
 e.g. freeBSD, Irix, Solaris and even win32).
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libcdio10-0.81-1
-  libiso9660_7-0.81-1
-  libpopt0-1.14-1
-  libxml2-2.7.2-1
+  cygwin-1.7.0-44
+  libcdio10-0.81-10
+  libgcc1-4.3.2-2
+  libiso9660_7-0.81-10
+  libpopt0-1.6.4-4
+  libxml2-2.7.3-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-3
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.6a-2
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -65,17 +66,16 @@ Files included in the binary packages:
   /usr/bin/vcdxgen.exe
   /usr/bin/vcdxminfo.exe
   /usr/bin/vcdxrip.exe
-  /usr/share/doc/vcdimager-0.7.23/AUTHORS
-  /usr/share/doc/vcdimager-0.7.23/BUGS
-  /usr/share/doc/vcdimager-0.7.23/ChangeLog
-  /usr/share/doc/vcdimager-0.7.23/COPYING
-  /usr/share/doc/vcdimager-0.7.23/FAQ
-  /usr/share/doc/vcdimager-0.7.23/HACKING
-  /usr/share/doc/vcdimager-0.7.23/INSTALL
-  /usr/share/doc/vcdimager-0.7.23/NEWS
-  /usr/share/doc/vcdimager-0.7.23/README
-  /usr/share/doc/vcdimager-0.7.23/THANKS
-  /usr/share/doc/vcdimager-0.7.23/TODO
+  /usr/share/doc/vcdimager/AUTHORS
+  /usr/share/doc/vcdimager/BUGS
+  /usr/share/doc/vcdimager/ChangeLog
+  /usr/share/doc/vcdimager/COPYING
+  /usr/share/doc/vcdimager/FAQ
+  /usr/share/doc/vcdimager/HACKING
+  /usr/share/doc/vcdimager/NEWS
+  /usr/share/doc/vcdimager/README
+  /usr/share/doc/vcdimager/THANKS
+  /usr/share/doc/vcdimager/TODO
   /usr/share/info/vcd-info.info.gz
   /usr/share/info/vcdimager.info.gz
   /usr/share/info/vcdxrip.info.gz
@@ -108,14 +108,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.7.23-3 -----
-Rebuilt for libcdio-0.81.
-
------ version 0.7.23-2 -----
-Rebuilt with cygport for libcdio-0.78.
-
------ version 0.7.23-1 -----
-Initial release for Cygwin.
+----- version 0.7.23-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
