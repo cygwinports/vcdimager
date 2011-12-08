@@ -1,5 +1,5 @@
 category: Video
-requires: libcdio12 libgcc1 libiso9660_7 libpopt0 libxml2 libvcdinfo0
+requires: libcdio13 libiso9660_8 libpopt0 libxml2 libvcdinfo0
 sdesc: "Video CD mastering suite (applications)"
 ldesc: "GNU VCDImager is a full-featured mastering suite for authoring,
 disassembling and analyzing Video CD's and Super Video CD's.

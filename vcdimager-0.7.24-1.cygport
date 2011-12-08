@@ -13,4 +13,5 @@ DIFF_EXCLUDES="test"
 CYGCONF_ARGS="
 	--with-cli-frontends
 	--with-xml-prefix=/usr --disable-xmltest
+	--without-versioned-libs
 "

@@ -1,5 +1,5 @@
 category: Video
-requires: libcdio12 libgcc1 libiso9660_7
+requires: libcdio13 libiso9660_8
 external-source: vcdimager
 sdesc: "Video CD mastering suite (runtime library)"
 ldesc: "GNU VCDImager is a full-featured mastering suite for authoring,
