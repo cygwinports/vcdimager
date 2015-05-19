@@ -1,6 +1,6 @@
 NAME="vcdimager"
 VERSION=0.7.24
-RELEASE=2
+RELEASE=3
 CATEGORY="Video"
 SUMMARY="Video CD mastering suite"
 DESCRIPTION="GNU VCDImager is a full-featured mastering suite for authoring,
