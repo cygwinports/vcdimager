@@ -1,6 +1,6 @@
 NAME="vcdimager"
-VERSION=0.7.24
-RELEASE=3
+VERSION=2.0.1
+RELEASE=1
 CATEGORY="Video"
 SUMMARY="Video CD mastering suite"
 DESCRIPTION="GNU VCDImager is a full-featured mastering suite for authoring,
@@ -8,8 +8,8 @@ disassembling and analyzing Video CDs and Super Video CDs. The core functionalit
 consists of directly making Video CD BIN/CUE-style CD images from mpeg files,
 which (after being written to CDR(W) media) can be played on standalone VCD/DVD
 players or on computers."
-HOMEPAGE="http://www.vcdimager.org/"
-SRC_URI="mirror://gnu/${PN}/${P}.tar.gz"
+HOMEPAGE="https://www.gnu.org/software/vcdimager/"
+SRC_URI="mirror://gnu/vcdimager/vcdimager-${VERSION}.tar.gz"
 PATCH_URI="0.7.23-no-undefined.patch"
 
 PKG_NAMES="${PN} libvcdinfo0 libvcdinfo-devel"
